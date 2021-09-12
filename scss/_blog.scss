@@ -1,0 +1,30 @@
+@import "_vars";
+
+.blog {
+    &__item {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__item-title {
+        margin: 0;
+        padding: 25px 0px 24px 0px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: $accent;
+    }
+
+    &__item-author {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: capitalize;
+    }
+}
